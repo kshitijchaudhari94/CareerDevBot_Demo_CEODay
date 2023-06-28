@@ -1,0 +1,36 @@
+
+
+.chat-row {
+    display: flex;
+    margin: 5px;
+    width: 100%;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.chat-bubble {
+    font-family: "Source Sans Pro", sans-serif, "Segoe UI", "Roboto", sans-serif;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    margin: 0px 7px;
+    max-width: 70%;
+}
+
+.ai-bubble {
+    background: #E73446; /* Change the background color to red */
+    color: white; /* Set the text color to white */
+    border-radius: 10px;
+}
+
+.human-bubble {
+    background: #CCCCCC; /* Gray color for user output */
+    color: #000000; /* Black text color for user output */
+    border-radius: 20px;
+}
+
+.chat-icon {
+    border-radius: 5px;
+}
+
